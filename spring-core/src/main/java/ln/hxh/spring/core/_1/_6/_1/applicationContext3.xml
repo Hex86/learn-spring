@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+
+       default-merge="true" default-autowire="default" default-autowire-candidates="*"
+       default-init-method="init" default-destroy-method="close" default-lazy-init="false">
+
+    <bean class="ln.hxh.spring.core._1._6._1.ExampleBean" init-method="init" destroy-method="close"/>
+
+    <bean class="ln.hxh.spring.core._1._6._1.MySmartLifecycle" />
+
+</beans>
